@@ -1,4 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #fff;
+  color: #000;
+
+  .brand {
+    margin: auto;
+    width: 99%;
+    padding: 10rem;
+    text-align: center;
+    background: #201a30;
+    color: #fff;
+
+    .title {
+      font-size: 48px;
+      padding: 0;
+    }
+    .subtitle {
+      padding-bottom: 0.5rem;
+      font-weight: normal;
+      font-style: italic;
+    }
+
+    .contact {
+      text-align: center;
+    }
+  }
+
+  .projects {
+    text-align: center;
+
+    .project {
+      display: inline-block;
+      padding: 1rem;
+      .project-img {
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
+
+  .main-footer {
+    background: #2b2b2b;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+  }
 }
